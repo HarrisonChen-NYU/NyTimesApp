@@ -1,22 +1,52 @@
-.App {
-  text-align: center;
+.nyTimes {display: flex;
+flex-direction: column;
 }
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.one{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row
+}
+.two{
+  display: flex;
+  flex-direction: row
 }
 
-.App-link {
-  color: #09d3ac;
+.three{
+  display: flex;
+  flex-direction: row
+}
+
+.date {
+  flex: 1;
+  justify-content: flex-start;
+  color: grey
+}
+
+.box {
+  flex-direction: row;
+  flex: 1;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.photo{
+  flex-direction: row;
+  flex: 1;
+  justify-content: flex-end;
+  width: 50px;
+  height: 100px;
+  flex-wrap: wrap
+}
+h1{
+  font-size: 25px;
+}
+h2 {
+  font-size: 13px;
+  color: grey;
+  font-weight: 200;
+}
+
+h3{
+  font-weight: 200
+
 }
