@@ -5,7 +5,7 @@ function App() {
   return (
     <div class= "nyTimes Page">
 
-    <div class= "one">
+    <div class= "article">
     <div class= "date">
       <div> Jan. 30, 2018</div>
     </div>
@@ -24,7 +24,7 @@ function App() {
     </div>
     </div>
 
-    <div class= "two">
+    <div class= "article">
     <div class= "date">
       <div> Jan. 30, 2018</div>
     </div>
@@ -44,7 +44,7 @@ function App() {
     </div>
     </div>
 
-    <div class = "three">
+    <div class = "article">
     <div class= "date">
       <div> Jan. 30, 2018</div>
     </div>
